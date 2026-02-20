@@ -18,7 +18,7 @@ const Hero = ({scrollToSection, isVisible}) => {
             </div>
           </div>
           
-          <h1 className="text-6xl md:text-7xl font-bold mb-4 bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 bg-clip-text text-transparent animate-pulse">
+<h1 className="text-6xl md:text-7xl font-bold mb-4 leading-normal md:leading-[1.35] bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 bg-clip-text text-transparent">
             Indrajeet Bandgar
           </h1>
           
