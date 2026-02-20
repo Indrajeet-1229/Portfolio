@@ -9,7 +9,7 @@ const Navbar = ({ isMenuOpen, setIsMenuOpen, activeSection, scrollToSection }) =
 
                     <div className="flex items-center">
                         <img
-                            src="/src/assets/logo/logo.webp"
+                            src="src/assets/logo/logo.webp"
                             alt="logo"
                             className="w-[130px] h-[40px] sm:w-[150px] sm:h-[50px]  object-contain"
                         />
