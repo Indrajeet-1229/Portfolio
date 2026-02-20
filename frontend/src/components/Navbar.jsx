@@ -1,4 +1,5 @@
 import { Menu, X } from 'lucide-react';
+import logo from '../assets/logo/logo.webp'
 
 const Navbar = ({ isMenuOpen, setIsMenuOpen, activeSection, scrollToSection }) => {
 
@@ -9,7 +10,7 @@ const Navbar = ({ isMenuOpen, setIsMenuOpen, activeSection, scrollToSection }) =
 
                     <div className="flex items-center">
                         <img
-                            src="src/assets/logo/logo.webp"
+                            src={logo}
                             alt="logo"
                             className="w-[130px] h-[40px] sm:w-[150px] sm:h-[50px]  object-contain"
                         />
