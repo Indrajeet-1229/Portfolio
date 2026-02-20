@@ -4,7 +4,7 @@ import nodemailer from "nodemailer";
 const addEnquiry = async (req, res) => {
     try {
         const { name, email, message } = req.body;
-
+console.log(req.body)
         if (!name || !email || !message) {
             return res.json({ success: false, message: "All fields are required" });
         }

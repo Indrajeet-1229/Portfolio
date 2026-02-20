@@ -3,10 +3,8 @@ dotenv.config();
 
 import express from "express";
 import cors from "cors";
-
-
-import { connectDb } from "../db/db.js";
 import enquiryRouter from "../routes/enquiryRoute.js";
+import { connectDb } from "../db/db.js";
 
 const app = express();
 
