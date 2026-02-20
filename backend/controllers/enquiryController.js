@@ -4,7 +4,7 @@ import nodemailer from "nodemailer";
 const addEnquiry = async (req, res) => {
     try {
         const { name, email, message } = req.body;
-console.log(req.body)
+        console.log(req.body)
         if (!name || !email || !message) {
             return res.json({ success: false, message: "All fields are required" });
         }
@@ -13,7 +13,7 @@ console.log(req.body)
         const newEnquiry = new enquiryModel({ name, email, message });
         await newEnquiry.save();
 
-
+        res.json({ success: true, message: "Form Submitted Successfully" });
         const transporter = nodemailer.createTransport({
             service: "gmail",
             auth: {
@@ -45,7 +45,7 @@ console.log(req.body)
             html: `<p>Hi ${name}, thank you for contacting us. We will reply soon.</p>`
         });
 
-        res.json({ success: true, message: "Form Submitted Successfully" });
+
 
     } catch (error) {
         console.log(error);
