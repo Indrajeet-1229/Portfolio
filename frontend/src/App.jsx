@@ -1,6 +1,6 @@
 
 import './App.css'
-import Portfolio from './portfolio'
+import Portfolio from './Portfolio'
 import { ToastContainer, toast } from 'react-toastify';
 
 function App() {
