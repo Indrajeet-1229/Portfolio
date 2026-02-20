@@ -13,6 +13,7 @@ const Contact = () => {
     e.preventDefault();
     try {
       setLoading(true)
+      console.log(`${import.meta.env.VITE_API_URL}/api/enquiry`)
       const response = await axios.post(`${import.meta.env.VITE_API_URL}/api/enquiry`, formData);
       console.log(response.success)
       if (response.data.success) {
