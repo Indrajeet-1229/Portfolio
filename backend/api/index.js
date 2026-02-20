@@ -11,7 +11,7 @@ const app = express();
 connectDb();
 
 app.use(cors({
-  origin: ["https://your-old-site-name.netlify.app"],
+  origin: ["https://indrajeet-bandgar-portfolio.netlify.app"],
   credentials: true
 }));
 app.use(express.json());
