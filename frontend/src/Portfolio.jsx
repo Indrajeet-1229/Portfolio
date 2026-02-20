@@ -6,7 +6,7 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Experience from './components/Experience';
-import Footer from './components/footer';
+import Footer from './components/Footer';
 import Contact from './components/Contact';
 
 export default function Portfolio() {
