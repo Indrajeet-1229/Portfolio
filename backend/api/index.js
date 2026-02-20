@@ -5,7 +5,7 @@ import express from "express";
 import cors from "cors";
 import enquiryRouter from "../routes/enquiryRoute.js";
 import { connectDb } from "../db/db.js";
-
+  
 const app = express();
 
 connectDb();
