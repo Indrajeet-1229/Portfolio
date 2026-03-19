@@ -13,7 +13,7 @@ const addEnquiry = async (req, res) => {
         const newEnquiry = new enquiryModel({ name, email, message });
         await newEnquiry.save();
 
-        res.json({ success: true, message: "Form Submitted Successfully" });
+
         const transporter = nodemailer.createTransport({
             service: "gmail",
             auth: {
@@ -45,7 +45,7 @@ const addEnquiry = async (req, res) => {
             html: `<p>Hi ${name}, thank you for contacting us. We will reply soon.</p>`
         });
 
-
+        res.json({ success: true, message: "Form Submitted Successfully" });
 
     } catch (error) {
         console.log(error);
