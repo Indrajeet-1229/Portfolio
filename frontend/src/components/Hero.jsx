@@ -1,5 +1,6 @@
 import React from 'react'
 import { Github, Linkedin, Mail, Phone, Download } from 'lucide-react';
+import  myphoto from "../assets/hero/my_photo.webp"
 
 const Hero = ({ scrollToSection, isVisible }) => {
   return (
@@ -9,10 +10,10 @@ const Hero = ({ scrollToSection, isVisible }) => {
         }`}
     >
       <div className="max-w-4xl mx-auto text-center">
-        <div className="mb-6 inline-block">
-          <div className="w-32 h-32 mx-auto rounded-full bg-gradient-to-br from-cyan-400 to-blue-600 p-1">
+        <div className="mb-6 mt-6 inline-block">
+          <div className="w-40 h-40 mx-auto rounded-full bg-gradient-to-br from-cyan-400 to-purple-600 p-1">
             <div className="w-full h-full rounded-full bg-slate-900 flex items-center justify-center text-4xl font-bold">
-              IB
+           <img src={myphoto} alt="my_photo" />
             </div>
           </div>
         </div>
@@ -27,7 +28,7 @@ const Hero = ({ scrollToSection, isVisible }) => {
 
         <div className="flex flex-wrap gap-4 justify-center mb-8">
           <div className="flex items-center gap-2 bg-slate-800/50 px-4 py-2 rounded-full">
-            <span className="text-cyan-400 text-xl">3</span>
+            <span className="text-cyan-400 text-xl">3+</span>
             <span className="text-slate-300">Years Experience</span>
           </div>
           <div className="flex items-center gap-2 bg-slate-800/50 px-4 py-2 rounded-full">

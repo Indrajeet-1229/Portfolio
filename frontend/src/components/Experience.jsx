@@ -10,8 +10,20 @@ const Experience = () => {
 
           <div className="grid md:grid-cols-2 gap-12">
             {/* Experience */}
-            <div>
+            <div className='space-y-4'>
               <h3 className="text-2xl font-bold mb-6 text-cyan-400">Experience</h3>
+              <div className="bg-slate-800/30 p-6 rounded-2xl border border-slate-700/50">
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 rounded-full bg-gradient-to-br from-cyan-500 to-blue-600 flex items-center justify-center flex-shrink-0">
+                    <span className="text-2xl">💼</span>
+                  </div>
+                  <div>
+                    <h4 className="text-lg font-bold text-white mb-1">Full Stack Web Developer Intern</h4>
+                    <p className="text-cyan-400 mb-2">Seven Mentore and Training Pvt.Ltd</p>
+                    <p className="text-slate-400 text-sm">6 Months</p>
+                  </div>
+                </div>
+              </div>
               <div className="bg-slate-800/30 p-6 rounded-2xl border border-slate-700/50">
                 <div className="flex items-start gap-4">
                   <div className="w-12 h-12 rounded-full bg-gradient-to-br from-cyan-500 to-blue-600 flex items-center justify-center flex-shrink-0">
@@ -20,7 +32,7 @@ const Experience = () => {
                   <div>
                     <h4 className="text-lg font-bold text-white mb-1">Software Developer Engineer</h4>
                     <p className="text-cyan-400 mb-2">Orangebits Software Technologies</p>
-                    <p className="text-slate-400 text-sm">3 Years</p>
+                    <p className="text-slate-400 text-sm">3+ Years</p>
                   </div>
                 </div>
               </div>
