@@ -10,7 +10,7 @@ const Hero = ({ scrollToSection, isVisible }) => {
         }`}
     >
       <div className="max-w-4xl mx-auto text-center">
-        <div className="mb-6 mt-6 inline-block">
+        <div className="mb-6 mt-4 inline-block">
           <div className="w-40 h-40 mx-auto rounded-full bg-gradient-to-br from-cyan-400 to-purple-600 p-1">
             <div className="w-full h-full rounded-full bg-slate-900 flex items-center justify-center text-4xl font-bold">
            <img src={myphoto} alt="my_photo" />
@@ -18,7 +18,7 @@ const Hero = ({ scrollToSection, isVisible }) => {
           </div>
         </div>
 
-        <h1 className="text-6xl md:text-7xl font-bold mb-4 leading-normal md:leading-[1.35] bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 bg-clip-text text-transparent">
+        <h1 className="text-6xl md:text-7xl font-bold mb-4 leading-[1.3] md:leading-[1.35] bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 bg-clip-text text-transparent">
           Indrajeet Bandgar
         </h1>
 
